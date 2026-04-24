@@ -89,6 +89,7 @@ def main():
         with open(path, "w") as file:
             file.write(password)
             print(f"Saved to: {path}")
+            file.close()
 
 if __name__ == "__main__":
     main()
